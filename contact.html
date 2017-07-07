@@ -123,40 +123,33 @@
 
             <!-- Content --> 
             <div id="content_contact" class="content_IE6">
-
-                <form action="https://formspree.io/amokotoff@gmail.com" method="post">
-                    <input type="text" name="name">
-                    <input type="email" name="_replyto">
-                    <input type="submit" value="Send">
-                </form>
 				<div id="form_left">
 				<!-- INSERT CONTENT HERE-->
                 
-                 <form action="/gdform.php" method="post" onSubmit="return checkEmail(this)">
+                <form action="https://formspree.io/mokotoff@gmail.com" method="post"> 
                     <!--specifies all comment email subjects -->
                     <input  type="hidden" name="subject" value="Form Submission" />
                     <!-- specifies redirect link -->
                     <input type="hidden" name="redirect" value="contact_thankyou.html" />
                    
-                    <p><span class="italictxt">Name:&nbsp;</span><input class="formbox" type="text" name="Name" size="20" maxlength="100" /></p>
+                    <p><input type="name" name="name" placeholder="Your Name" size="25" maxlength="100" class="formbox"></p>
                     
-                    <p><span class="italictxt">E-Mail:&nbsp;</span><input class="formbox" type="text" name="Email" size="20" maxlength="100" /></p>
-                    
-                   	<p><span class="italictxt">Message:</span><br /><textarea class="formbox" name="Message" rows="4" cols="35"></textarea></p>
-                    
+                    <p><input type="email" name="_replyto" placeholder="Your Email" class="formbox" size="25" maxlength="100"></p>                   
+
+                    <p><textarea name="message" placeholder="Your Message" class="formbox" rows="4" cols="35"></textarea></p>
+
+
                     <p><span class="italictxt">Would you like to receive email about upcoming recitals and other activities?</span><br />
         			<input type="radio" name="Subscribe" value="Yes" />Yes&nbsp;&nbsp;&nbsp;<input type="radio" name="Subscribe" value="No" />No</p>
                     
-                    <p><input class="submitbutton" type="submit" name="submit" value="Submit"/></p>
-                    </form>
-                
-                
+                    <p><button type="submit" class="submitbutton" name="submit">Submit</button></p>
+                </form>
                 
                 
                 </div>
             
                 <div id="form_right">
-                <p><span class="italictxt">E-mail Address:</span><br /><a href="mailto:mokotoff@gmail.com">mokotoff(AT)gmail.com</a><br />&nbsp;</p>
+                <p><span class="italictxt">E-mail Address:</span><br /><a href="mailto:mokotoff@gmail.com">mokotoff&#64;gmail.com</a><br />&nbsp;</p>
 				</div>
 				
 			</div>
