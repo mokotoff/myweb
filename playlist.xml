@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<playlist>
+	<item>
+		<title>Choro da Saudade, A. Barrios</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/barriosChoro7_2009.mp3</path>
+	</item>
+	
+	<item>
+		<title>Preludio from Pasaje Abierto, E. Solis</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/solisPreludio-7-2010-87MV.mp3</path>
+	</item>
+		<item>
+		<title>Danza from Pasaje Abierto, E. Solis</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/solisDanza-7-2010-87MV.mp3</path>
+	</item>
+	
+	<item>
+		<title>Sounds of Bells, J. Guimaraes </title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/bells7-2010-87MV.mp3</path>
+	</item>
+	<item>
+		<title>Dedicatoria by E. Granados</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/granados7-2010-87MV.mp3</path>
+	</item>
+	<item>
+		<title>Larghetto, W. A. Mozart</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/mozartMvt1-7_2009.mp3</path>
+	</item>
+	<item>
+		<title>Allegro, W. A. Mozart</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/mozartMvt2-7_2009.mp3</path>
+	</item>
+	
+	<item>
+		<title>Prelude to Cello Suite 1, J.S. Bach</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/bachPrelude7-2010-87MV.mp3</path>
+	</item>
+	<item>
+		<title>Sonata K.380, D. Scarlatti</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/scarlattiEmajor7_2009.mp3</path>
+	</item>
+	<item>
+		<title>Sonata K.209, D. Scarlatti</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/k209.mp3</path>
+	</item>	
+	<item>
+		<title>Concerto, G.F. Handel Movement 1</title>
+		<artist>Charles Mokotoff, guitar and NIH Philharmonic</artist>
+		<path>audio/handelMvt1.mp3</path>
+	</item>
+	<item>
+		<title>Concerto, G.F. Handel Movement 2</title>
+		<artist>Charles Mokotoff, guitar and NIH Philharmonic</artist>
+		<path>audio/handelMvt2.mp3</path>
+	</item>
+	
+	<item>
+		<title>Concerto, G.F. Handel Movement 3</title>
+		<artist>Charles Mokotoff, guitar and NIH Philharmonic</artist>
+		<path>audio/handelMvt3.mp3</path>
+	</item>
+		<item>
+		<title>Sevilla by I. Albeniz</title>
+		<artist>Charles Mokotoff, guitar</artist>
+		<path>audio/sevilla.mp3</path>
+	</item>
+	
+</playlist>

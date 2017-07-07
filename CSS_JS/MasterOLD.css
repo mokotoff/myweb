@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* CSS Document */
+	@media screen {
+
+	* {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+		
+	}
+	body {
+		background-color:#7c1419;
+		text-align:center;
+		font-size:15px;
+		color:#7fc0df;
+		line-height:24px;
+	}
+
+	
+	#overall {
+		background-image:url(../images/container.gif);
+		background-repeat:no-repeat;
+		height:560px;
+		margin: 0 auto;
+		width:900px;
+		text-align:left;
+	}
+	#overall_index {
+		background-image:url(../images/index_bg.jpg);
+		background-repeat:no-repeat;
+		height:560px;
+		margin: 0 auto;
+		width:900px;
+		text-align:left;
+		}
+	
+	#header {
+		background-image:url(../images/header.gif);
+		background-repeat:no-repeat;
+		height:125px;
+		width:inherit;
+		float:left;
+	}
+	
+	#nav {
+		margin-right:15px;
+		width:135px;
+		float:left;
+	}
+	#nav p{
+		text-align:right;
+	}
+	#nav img{
+		margin-bottom:10px;
+	}
+	
+	
+	#content {
+		background:none;
+		margin-right:45px;
+		width:700px;
+		float:right;
+		height:385px;
+		overflow:auto;	
+	}
+	#content a:link, a:visited, a:active{
+		color:#7fc0df;
+		text-decoration:underline;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	#content a:hover{
+		color:#FFFFFF;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	#content p {
+		padding-top:10px;
+		padding-left:20px;
+		padding-right:15px;
+	}
+	#content ul {
+		margin-left:0px;
+	}
+	
+	#content_index {
+		background:none;
+		margin-right:45px;
+		width:700px;
+		float:right;
+		height:385px;
+		overflow:auto;	
+	}
+	
+/*CONTACT PAGE CONTENT */
+	#content_contact {
+		background:none;
+		padding-right:0px;
+		margin: 0 auto;
+		width:745px;
+		float:right;
+		line-height:28px;
+		}
+	#content_contact a:link, a:visited, a:active{
+		color:#7fc0df;
+		text-decoration:underline;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	#content_contact a:hover{
+		color:#FFFFFF;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	#form_left {
+		width:345px;
+		height:375px;
+		margin-left:22px;
+		margin-top:10px;
+		float:left;
+		padding-left:0px;
+		padding-right:0px;
+		line-height:16px;
+	}
+	#form_right {
+		width:300px;
+		margin-right:27px;
+		margin-top:10px;
+		float:right;
+		height:375px;
+		margin-left:0px;
+	}
+	
+	
+	#footer {
+		background-image:url(../images/footer.gif);
+		background-repeat:no-repeat;
+		height:50px;
+		width:900px;
+		float:left;
+	}
+	#footer p{
+		color:#FF9999;
+		font-size:11px;
+		line-height:17px;
+		padding:10px 50px 0px 150px;
+	}
+
+	#footer a:visited, a:active, a:link{
+		color:#FF9999;
+		text-decoration:underline;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	#footer a:hover{
+		color:#FFFFFF;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	
+	#photo_table{
+		background-color:none;
+		border:none;	
+	}
+	
+	/* SPECIFIES TYPICAL LINK HOVER ACTION */
+	a:hover{
+		color:#FFFFFF;
+		font-size:inherit;
+		text-align:inherit;
+	}
+	
+	
+	/*BELOW THIS IS ALL CLASSES, ARRANGED ALPHABETICALLY*/
+	
+	/* CONTROLS CD IMAGE OUTLINE ON HOVER */
+	.cd_hover:hover img{
+		border:1px solid #7fc0df;
+	}
+	.cd_hover img{
+		border:1px solid #000;
+	}
+	.cd_hover:hover {
+		color: red;
+	}
+	
+	/* CD IMAGE ATTRIBUTES */
+	.img_cd {
+		margin:20px 30px 15px 20px;
+		float:left;
+	}
+	
+	/* CLASSES TO CONTROL TEXT */
+	.italictxt{
+		font-style:italic;
+		line-height:24px;
+		}
+	.heading {
+		text-transform:uppercase;
+	}
+	
+	/* CONTROLS INPUT TEXT IN CONTACT FORM BOXES */
+	.formbox {
+		color:#7fc0df;
+		font:inherit;
+		background:none;
+		border:solid 1px #555;
+	}
+	
+	/* CONTROLS LIGHTBOX IMAGE OUTLINE ON HOVER */
+	.lightbox:hover img{
+		border:1px solid #7fc0df;
+	}
+	.lightbox img{
+		margin-left:20px;
+		margin-top: 10px;
+		border:1px solid #000;
+	}
+	.lightbox:hover{
+		color: red; /* irrelevant definition to overcome IE bug */
+	}
+	
+	/*CONTROLS PHOTO TABLE BORDERS*/
+	.photo_row {
+		border:none;
+	}
+	.photo_col {
+		border:none;
+	}
+	
+	/*CONTROLS SUBMIT BUTTON POSITION AND HOVER ACTION*/
+	.submitbutton {
+		margin-top:10px;
+		float:left;
+		background-color:#222;
+		color:#7fc0df;
+		border:1px solid #888;
+	}
+	.submitbutton:hover {
+		margin-top:10px;
+		float:left;
+		border:1px solid #888;
+		color:#7fc0df;
+		background-color:#888;
+	}
+
+	
+	}
+	
+
+
+	

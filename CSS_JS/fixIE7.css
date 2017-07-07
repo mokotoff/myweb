@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen {
+
+#content  {
+	overflow:auto;
+	word-wrap: break-word;
+	}
+	
+	}

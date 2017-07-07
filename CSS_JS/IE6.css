@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.vis_IE6 {
+	visibility:hidden;
+}
+
+.content_IE6 {
+	margin-top:-3px;
+}
+
+.addthis_IE6 {
+	float:right;
+}
+
